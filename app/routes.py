@@ -5,9 +5,11 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions
 
 # Set up Watson NLU
-authenticator = IAMAuthenticator('your_api_key')  # Replace with your API key
+# authenticator = IAMAuthenticator('your_api_key')  # Replace with your API key
 
- 
+MY_API_KEY = 'you-api-here'
+SERVICE_URL = 'https://eu-de.ml.cloud.ibm.com'
+
 authenticator = IAMAuthenticator(MY_API_KEY)  # Replace with your API key
 
 nlu = NaturalLanguageUnderstandingV1(
