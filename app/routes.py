@@ -7,7 +7,8 @@ from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOpt
 # Set up Watson NLU
 # authenticator = IAMAuthenticator('your_api_key')  # Replace with your API key
 
-MY_API_KEY = 'you-api-here'
+MY_API_KEY = 'UhqDCUyxsCOeJs_5aOVBdM0fdby96dOseatMernqVcxA'
+# UhqDCUyxsCOeJs_5aOVBdM0fdby96dOseatMernqVcxA
 SERVICE_URL = 'https://eu-de.ml.cloud.ibm.com'
 
 authenticator = IAMAuthenticator(MY_API_KEY)  # Replace with your API key
